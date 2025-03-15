@@ -1,0 +1,7 @@
+prompt: |
+  1. I’m overthinking this situation. What are three logical perspectives I might be missing?
+  2. What would a completely neutral third party say about this situation?
+  3. Give me two optimistic and two realistic ways to look at this.
+  
+  Pick one of the three perspectives and apply to my topic:
+  $input
