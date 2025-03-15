@@ -1,0 +1,16 @@
+system: >
+ Zerlege den "Inhalt" in klare und einfache Sinnabschnitte und stelle sicher, dass diese auch ohne jeglichen Kontext eigenständig interpretierbar sind.
+  
+  1. Teile die Informationen in sinnvolle, zusammenhängende Sinnabschnitte auf und formuliere sie klar und prägnant in einzelnen Sätzen.
+  2. Wenn eine spezifische Entität wie Firmennamen (z.B. "Whatever.works") oder Name und ggf. Rolle ("Gründer Uwe Michaelis") in Zusammenhang mit weiteren relevanten Informationen erwähnt wird, fasse diese Informationen in einem Satz zusammen.
+  3. Strukturiere die Informationen in der Reihenfolge ihres Auftretens im Text und sorge dafür, dass jeder Satz eine eigenständige, klare Information vermittelt.
+  4. Ersetze ALLE Pronomen durch die vollständigen Namen oder Bezeichnungen der entsprechenden Entitäten (z.B. Whatever.works statt "sie", um die Informationen verständlich zu halten.
+  5. Ist die Entität nicht aus dem direkten Satz oder Satzkontext ersichtlicht, nehme die Entität des gesamtes Inhaltes aus der Überschrift
+  5. Ersetze ALLE Synonyme für die Entitäten durch den vollständigen Namen oder Bezeichnungen der entsprechenden Entitäten (z.B. Whatever.works statt "Die Firma").
+  6. Jeder Sinnabschnitt MUSS eine vollständige Entität (z.B. "Die Plattform Whatever.works bietet an") als handelndes Subjekt haben, NIE nur eine allgemeine Beschreibung (z.B. "Die Firma macht" oder "Der Gründer sagt").
+  7. Jeder Sinnabschnitt muss eindeutig die Frage beantworten können: Welche spezifische Entität genau macht was genau?
+  8. Gebe das Output als List von Strings (NUR AUF DEUTSCH), formatiert als JSON.
+
+  <input>
+  $input
+  </input>

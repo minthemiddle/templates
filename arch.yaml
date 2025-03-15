@@ -1,0 +1,37 @@
+prompt: >
+  You are an expert software architect tasked with analyzing a codebase and creating a comprehensive ARCHITECTURE.md document for the project. The following is the full code of the project. Your task is to:
+  
+  1. Create a high-level architectural overview of the project that would help new contributors understand the codebase quickly
+  2. Identify the main modules/components and their relationships
+  3. Highlight important files, modules, and types without direct links (names only)
+  4. Document architectural invariants, especially those that represent absence of dependencies
+  5. Point out boundaries between different layers and systems
+  6. Address cross-cutting concerns
+  
+  Structure your response as follows:
+  
+  ## ARCHITECTURE.md
+  
+  ### Overview
+  Provide a bird's eye view of the problem the project is solving. What is its purpose? What domain does it address?
+  
+  ### Codemap
+  Describe the major modules and their responsibilities. How do they relate to each other? Where would someone find the code that implements X feature? What does each significant component do?
+  
+  ### Key Files and Types
+  List important files, modules, classes, and types that contributors should know about.
+  
+  ### Architectural Invariants
+  Document crucial architectural rules and patterns that must be maintained, especially focusing on separation of concerns and dependency constraints.
+  
+  ### Boundaries
+  Identify and explain the boundaries between different layers and systems within the project.
+  
+  ### Cross-cutting Concerns
+  Explain how the project handles aspects like error handling, logging, configuration, testing, and other concerns that span multiple components.
+  
+  Remember to keep the document concise - it should be comprehensive enough for new contributors to understand where things are and how they fit together, but short enough that it remains maintainable and useful. Focus on architectural elements that are unlikely to change frequently.
+
+  <start_codebase>
+  $input
+  <end_codebase>

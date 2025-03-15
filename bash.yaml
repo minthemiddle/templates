@@ -1,0 +1,12 @@
+prompt: >
+  Start Bash scripts with
+  
+  #!/bin/bash
+  set -euo pipefail
+  
+  Always quote Bash strings, and surround variables with parantheses
+  
+  Write Bash that can pass shellcheck
+  Just return the script
+
+  $input

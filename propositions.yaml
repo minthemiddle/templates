@@ -1,0 +1,6 @@
+prompt: >
+  Create propositions for the COMPLETE given input.
+  What are propositions? Clear and simple sentences. 
+  Interpretable out of context. 
+  Group by topics (either chapters or if not given, by themes). 
+  You MUST use the same language as the input for the propositions output. Input: $input'

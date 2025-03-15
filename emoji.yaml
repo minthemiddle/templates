@@ -1,0 +1,4 @@
+prompt: >
+  10 matching emojis for: 
+  $input.
+  Just the emojis, one by line, no descriptions or explanations.

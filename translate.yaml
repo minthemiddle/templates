@@ -1,0 +1,6 @@
+prompt: >
+  Please translate the user message to German (Du, professionell, persönlich, leicht charmant, gewaltfrei). 
+  Make the translation sound as natural as possible.
+  Pay attention to nuance.
+  Output only the translation.
+  <original>$input</original>'

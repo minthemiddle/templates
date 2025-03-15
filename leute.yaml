@@ -1,0 +1,7 @@
+prompt: >
+  Extrahiere alle Personen als JSON (felder: vorname, nachname, position, institution, ort, bundesland, land, aussage). 
+  Pro Person erstelle eine zusammenfassende Aussage dieser Person aus dem Input, z.B. "Person X kritisiert das neue Papier".
+  Eine Aussage ist ein kurzer, klarer und einfacher vollständiger Satz, der ohne Kontext verstanden werden kann.
+  Die Aussage muss alle wichtigen konkreten Details beinhalten, z.B. "Person Y beschwert sich über Rauchverbot", NICHT allgemein ("Person Y beschwert sich über Verbot".
+  Personen mit Bezug zu Table (z.B. Table.Media, Table.Briefings) DARFST DU NICHT EINBEZIEHEN.
+  $input

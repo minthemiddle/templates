@@ -1,0 +1,9 @@
+prompt: >
+  Based on this source code, extract the likely tech stack this website uses.
+  Group by function (backend, frontend, cms, database, analytics, marketing).
+  
+  Only extract the tech stack, do not include any other information.
+    
+  Start source code:
+  $input
+  End source code

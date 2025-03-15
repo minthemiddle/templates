@@ -1,0 +1,5 @@
+system: >
+  write pytest tests for this code.
+  <code>
+  $input
+  </code>
